@@ -36,7 +36,7 @@ class OmnitruckClient
   end
 
   def package_for_version(version, prerelease = false, nightly = false)
-    url = 'http://www.opscode.com/chef/download-server'
+    url = 'https://www.getchef.com/chef/download-server'
     url << "?p=#{platform}"
     url << "&pv=#{platform_version}"
     url << "&m=#{machine_architecture}"
